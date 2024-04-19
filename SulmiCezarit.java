@@ -12,7 +12,11 @@ public class SulmiCezarit {
     public static int Kontrolli(String[] ControlWords, String CipherTextWords)
     {
         int celesi_final = 0;
-        return celesi_final;
+        for (int i = 0; i < ControlWords.length; i++) {
+            if (ControlWords[i].length() == CipherTextWords.length()){
+        }
+            return celesi_final;
+
     }
 
 
