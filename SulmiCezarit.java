@@ -8,7 +8,11 @@ import java.util.List;
 public class SulmiCezarit {
     public static void main(String[] args) {
 
-
+    }
+    public static int Kontrolli(String[] ControlWords, String CipherTextWords)
+    {
+        int celesi_final = 0;
+        return celesi_final;
     }
 
 
