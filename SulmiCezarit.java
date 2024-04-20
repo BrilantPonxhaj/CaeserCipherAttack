@@ -36,4 +36,36 @@ public class SulmiCezarit {
 
             return tekstiDekoduar.toString();
         }
+
+    public static String textidekriptuar = "";
+
+    public static String Dekriptimi(String ciphertext) {
+        ciphertext = ciphertext.toUpperCase();
+
+        char[] mesazhiarray = ciphertext.toCharArray();
+
+        String[] fjaletkyqe = {"AND", "IS"};
+
+        String[] ciphertextsplit = ciphertext.split(" ");
+
+        List<String> fjalet = new ArrayList<String>();
+        for (int i = 0; i < ciphertextsplit.length; i++) {
+            for (int j = 0; j < fjaletkyqe.length; j++) {
+                if (ciphertextsplit[i].length() == fjaletkyqe[j].length()) {
+                    fjalet.add(ciphertextsplit[i]);
+                }
+            }
+        }
+        String[] vargu1 = fjalet.toArray(new String[0]);
+
+        int celesi = 0;
+        for (int i = 0; i < vargu1.length; i++) {
+            celesi = Kontrolli(fjaletkyqe, vargu1[i].toString());
+            if (celesi != -1) {
+                textidekriptuar += Mesazhi(ciphertext, celesi);
+                break;
+            }
+        }
+        return textidekriptuar;
     }
+}
