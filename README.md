@@ -1,4 +1,4 @@
-# Sulmi i Kodit të Cezarit përmes Kërkimit të Fjalëve të Njohura
+# Sulmi i Kodit të Cezarit përmes Kërkimit të Fjalëve të Njohura në ndonjë tekst fajll
 
 # Universiteti:
 Universiteti i Prishtinës "Hasan Prishtina"
