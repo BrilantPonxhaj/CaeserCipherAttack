@@ -18,3 +18,6 @@ Sulmi i Kodit të Cezarit përmes Kërkimit të Fjalëve të Njohura
 
 # Asistenti i lëndës:
 Mërgim Hoti
+
+# Përshkrimi i projektit
+Projekti "Sulmi i Kodit të Cezarit përmes Kërkimit të Fjalëve të Njohura në ndonjë tekst fajll" synon të zhvillojë një mjet për të dekriptuar tekst të koduar duke përdorur kodin e Cezarit. Kodimi i Cezarit është një teknikë e thjeshtë e kodimit ku çdo shkronjë në tekstin origjinal zhvendoset nga një numër i caktuar i pozicioneve në drejtim të lartë ose të poshtëm në alfabet. Ky mjet përdor një qasje brutale për të shkatërruar kodin, duke provuar të gjitha zhvendosjet e mundshme derisa mesazhi origjinal zbulohet.
