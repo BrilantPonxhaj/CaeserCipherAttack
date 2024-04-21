@@ -9,7 +9,7 @@ public class SulmiCezarit {
     public static void main(String[] args) {
         String ciphertext = "";
         try{
-            ciphertext = new String (Files.readAllBytes(Paths.get("C:\\Users\\Lenovo\\IdeaProjects\\CaesarCipher\\ciphertext.txt")));
+            ciphertext = new String (Files.readAllBytes(Paths.get("C:\\Users\\Lenovo\\IdeaProjects\\CaeserCipher\\CipherText")));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -18,7 +18,7 @@ public class SulmiCezarit {
         System.out.println("Teksti i dekriptuar: " + plaintext);
         }
 
-    }
+
 
     public static int Kontrolli(String[] ControlWords, String CipherTextWords) {
         int celesi_final = 0;
@@ -54,7 +54,7 @@ public class SulmiCezarit {
 
         char[] mesazhiarray = ciphertext.toCharArray();
 
-        String[] fjaletkyqe = {"AND", "IS"};
+        String[] fjaletkyqe = {"ARE", "AN",};
 
         String[] ciphertextsplit = ciphertext.split(" ");
 
